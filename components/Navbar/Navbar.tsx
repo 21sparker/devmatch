@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Container from './Container';
 
-const linkClassName = "inline-block p-3 text-lg border-b-2";
+const linkClassName = "inline-block p-3 text-lg";
 
 
 const Navbar: React.FC = () => {
@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
             <div id="right-nav" className="grid justify-items-stretch">
                 <ul className="justify-self-end space-x-10">
                     <li className={linkClassName}>
-                        <a className="mb-2" href="#">Devs</a>
+                        <a className="border-b-2" href="#">Devs</a>
                     </li>
                     <li className={linkClassName}>
                         <a href="#" className="text-primary">Login</a>
