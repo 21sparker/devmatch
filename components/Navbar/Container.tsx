@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+
 
   
 const Container: React.FC = ({children}) => {
   return (
-      <nav className="ml-20 mr-20 grid grid-cols-2 border-b-2 border-green-300">
+      <nav className="pl-28 pr-28 grid grid-cols-2 border-b-2 border-green-300">
           {children}
       </nav>
   );
