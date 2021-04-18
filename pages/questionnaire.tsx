@@ -11,7 +11,7 @@ const questionnaire: React.FC<questionnaireProps> = ({}) => {
     return (
       <>
         <Navbar/>
-        <div id="questionnaire-container"
+        <form id="questionnaire-container"
           className="flex flex-col items-center mt-16">
           <div id="question flex w-full justify-center">
             <Header size="4xl" center>What languages do you use?</Header>
@@ -26,7 +26,7 @@ const questionnaire: React.FC<questionnaireProps> = ({}) => {
               <Checkbox label="Javascript" />
             </div>
           </div>
-        </div>
+        </form>
       </>
     );
 }
