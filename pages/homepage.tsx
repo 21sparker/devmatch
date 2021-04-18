@@ -1,4 +1,5 @@
 import { NextPage } from 'next';
+import Header from '../components/Header';
 
 const homepage: NextPage = () => {
   return (

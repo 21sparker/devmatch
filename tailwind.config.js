@@ -11,7 +11,11 @@ module.exports = {
 			gray: '#302D2D',
 			green: colors.green,
 		},
-		extend: {}
+		extend: {
+			height: theme => ({
+				"h-90": "90vh"
+			})
+		}
 	},
 	variants: {
 		extend: {}
