@@ -12,11 +12,9 @@ export default function Home() {
       </Head>
       <Navbar />
       <div id="landing-page-container"
-        className="flex flex-col">
-        <div id="content-container"
-          className="flex justify-evenly items-baseline">
+        className="flex justify-evenly items-baseline h-full">
           <div id="title"
-            className="flex flex-col justify-evenly w-2/4 h-2/3">
+            className="flex flex-col  w-2/4 h-2/3">
             <h1 className="text-primary text-5xl">DevMatch</h1>
             <p className="text-xl w-3/4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quod?</p>
             <img
@@ -42,10 +40,7 @@ export default function Home() {
               <Button>Register</Button>
             </div>
           </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150"><path fill="#00cba9" fill-opacity="1" d="M0,0L60,21.3C120,43,240,85,360,85.3C480,85,600,43,720,48C840,53,960,107,1080,112C1200,117,1320,75,1380,53.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
       </div>
-
     </div>
   )
 }
