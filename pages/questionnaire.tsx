@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/Button';
 import Checkbox from '../components/Checkbox';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar/Navbar';
@@ -46,7 +47,7 @@ const questionnaire: React.FC<questionnaireProps> = ({}) => {
             </div>
           </div>
           <div id="question"
-            className="flex flex-col mt-24 justify-center w-full">
+            className="flex flex-col mt-24 mb-24 justify-center w-full">
             <Header size="4xl">What are your programming goals?</Header>
             <div className="mt-8">
               <Checkbox label="I want to get a job as a programmer." />
@@ -54,6 +55,7 @@ const questionnaire: React.FC<questionnaireProps> = ({}) => {
               <Checkbox label="I want to build something interesting and fun." />
             </div>
           </div>
+          <Button>Submit</Button>
         </form>
         </div>
       </>
