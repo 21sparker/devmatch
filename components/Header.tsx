@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface HeaderProps {
-  size: "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl"
+  size: "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | "7xl"
   center?: boolean
 }
 
