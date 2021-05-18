@@ -19,12 +19,12 @@ const MyProfile: React.FC<MyProfileProps> = ({}) => {
     return (
         <div>
           <Navbar/>
-          <div className="flex">
+          <div className="grid grid-cols-1 m-4 sm:grid-cols-2">
             <div className="mt-4 ml-24 w-2/4">
               <Header size="6xl">My Profile:</Header>
               <div className="my-10 w-2/4" >
                 <img 
-                  className="object-contain rounded-md h-52"
+                  className="object-contain rounded-md h-62"
                   src="https://images.unsplash.com/photo-1611432579699-484f7990b127?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
               </div>
               <div>
@@ -36,7 +36,7 @@ const MyProfile: React.FC<MyProfileProps> = ({}) => {
                 <UserAdd />
               </div>
             </div>
-            <div className="mt-24 w-2/4 mr-34">
+            <div className="flex flex-col justify-between mt-24 w-2/4 mr-34">
               <div>
                 <Header size="4xl">Languages I use:</Header>
                 <div className="flex mt-4">
@@ -50,10 +50,18 @@ const MyProfile: React.FC<MyProfileProps> = ({}) => {
                   <PHP />
                 </div>
               </div>
+              <div className="">
+                <Header size="4xl">Experience:</Header>
+                <p>I've built a few full stack projects.</p>
+              </div>
+              <div className="">
+                <Header size="4xl">Goals:</Header>
+                <p>I want to build something interesting and fun.</p>
+              </div>
             </div>
           </div>
         </div>
     );
-}
+};
 
 export default MyProfile;
