@@ -13,7 +13,7 @@ import CPlusPlus from '../components/icons/CPlusPlus';
 import PHP from '../components/icons/PHP';
 interface MyProfileProps {
 
-}
+};
 
 const MyProfile: React.FC<MyProfileProps> = ({}) => {
     return (
@@ -22,7 +22,7 @@ const MyProfile: React.FC<MyProfileProps> = ({}) => {
           <div className="grid grid-cols-1 m-4 sm:grid-cols-2">
             <div className="mt-4 ml-24 w-2/4">
               <Header size="6xl">My Profile:</Header>
-              <div className="my-10 w-2/4" >
+              <div className="my-10 w-3/4" >
                 <img 
                   className="object-contain rounded-md h-62"
                   src="https://images.unsplash.com/photo-1611432579699-484f7990b127?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
@@ -31,7 +31,7 @@ const MyProfile: React.FC<MyProfileProps> = ({}) => {
                 <Header size="4xl">Robert Ludwig</Header>
                 <Header size="2xl">Boston, MA</Header>
               </div>
-              <div className="flex mt-10 justify-between w-1/6">
+              <div className="flex mt-10 justify-between w-1/4">
                 <Chat />
                 <UserAdd />
               </div>
