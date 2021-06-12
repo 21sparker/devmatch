@@ -40,14 +40,14 @@ const MyProfile: React.FC<MyProfileProps> = ({}) => {
               <div>
                 <Header size="4xl">Languages I use:</Header>
                 <div className="flex mt-4">
-                  <Javascript />
-                  <Python />
-                  <Ruby />
-                  <Java />
-                  <Golang />
-                  <CSharp />
-                  <CPlusPlus />
-                  <PHP />
+                  <Javascript size={14}/>
+                  <Python size={14} />
+                  <Ruby size={14} />
+                  <Java size={14} />
+                  <Golang size={14} />
+                  <CSharp size={14} />
+                  <CPlusPlus size={14} />
+                  <PHP size={14} />
                 </div>
               </div>
               <div className="">
