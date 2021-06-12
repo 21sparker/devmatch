@@ -11,6 +11,7 @@ module.exports = {
 			black: '#000000',
 			gray: '#302D2D',
 			green: colors.green,
+			blue: colors.blue
 		},
 		extend: {
 			height: theme => ({
