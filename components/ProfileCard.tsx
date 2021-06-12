@@ -1,3 +1,5 @@
+import { faExternalLinkAlt, faSmile, faSmileBeam } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Javascript from './icons/Javascript';
 import Python from './icons/Python';
@@ -26,8 +28,8 @@ const ProfileCard: React.FC<ProfileCardProps> = ({}) => {
               </div>
             </div>
             <div className="mt-5 w-full">
-              <div className="h-10 w-10 bg-black rounded-md">
-
+              <div className="h-10 w-10 bg-primary rounded -ml-px">
+                <FontAwesomeIcon icon={faSmile} className="h-full w-full"></FontAwesomeIcon>
               </div>
             </div>
           </div>
